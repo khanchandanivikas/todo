@@ -1,0 +1,26 @@
+button {
+    border: 1px solid rgb(255, 135, 158);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(255, 135, 158);
+    color: #fff;
+}
+
+.completo {
+    letter-spacing: 1px;
+    text-decoration: line-through;
+}
+
+.incompleto {
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.listas {
+    margin: 1rem;
+    font-weight: 400;
+}

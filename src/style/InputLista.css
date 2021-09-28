@@ -1,0 +1,43 @@
+input {
+    width: 70%;
+    height: 30px;
+    border: 1px solid rgb(255, 135, 158);
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+select {
+    width: 73%;
+    height: 30px;
+    border: 1px solid rgb(255, 135, 158);
+    outline: none;
+    padding: 5px;
+    margin: 5px;
+}
+
+#añadir {
+    border: none;
+    background-color: rgb(255, 135, 158);
+    color: #fff;
+    width: 60px;
+    height: 30px;
+    margin: 10px;
+}
+
+#añadir:hover {
+    background-color: rgb(245, 84, 114);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1,h2 {
+    color: rgb(255, 135, 158);
+    font-weight: 700;
+    margin: 0.5rem;
+}
